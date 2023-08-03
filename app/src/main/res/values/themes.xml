@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CustomMaterials" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.CustomMaterials" parent="Base.Theme.CustomMaterials" />
+
+    <style name="RatingBar" parent="Widget.AppCompat.RatingBar">
+
+        <!-- non selected star coloR -->
+        <item name="colorControlNormal">#4D000000</item>
+
+        <!-- selected star coloR -->
+        <item name="colorControlActivated">@color/dialog_color_3</item>
+
+    </style>
+</resources>

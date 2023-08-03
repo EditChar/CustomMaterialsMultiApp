@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TabsActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Custom Tabs"
+        android:textColor="#FFFFFFFF"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:background="#4A6BFB"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4A6BFB">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:background="@drawable/round_back_white10_100"
+            android:layout_margin="20dp">
+            <TextView
+                android:id="@+id/tab1"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:text="Tab 1"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:background="@drawable/round_back_white_100"
+                android:gravity="center"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/tab2"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:text="Tab 2"
+                android:textColor="#80FFFFFF"
+                android:gravity="center"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/tab3"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:text="Tab 3"
+                android:textColor="#80FFFFFF"
+                android:gravity="center"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

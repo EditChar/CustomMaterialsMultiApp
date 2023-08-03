@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#bebebe</color>
+    <color name="colorAccents">#FF4081</color>
+    <color name="dialog_color_1">#FFD748</color>
+    <color name="dialog_color_2">#FACB38</color>
+    <color name="dialog_color_3">#FDD736</color>
+    <color name="dialog_color_4">#3B5796</color>
+    <color name="secondary_color">#F65555</color>
+    <color name="transparent">#00000000</color>
+    <color name="transberint">#80000000</color>
+
+</resources>
